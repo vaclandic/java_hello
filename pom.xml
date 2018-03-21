@@ -6,6 +6,7 @@
     <artifactId>gs-maven</artifactId>
     <packaging>jar</packaging>
     <version>1.1.0</version>
+<!---
   <repositories>
     <repository>
       <id>artifactory</id>
@@ -21,7 +22,7 @@
 			<version>0.1.0</version>
 		</dependency>
 	</dependencies>
-
+-->
     <build>
         <plugins>
             <plugin>
