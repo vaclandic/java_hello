@@ -6,6 +6,21 @@
     <artifactId>gs-maven</artifactId>
     <packaging>jar</packaging>
     <version>0.1.0</version>
+  <repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
+      <url>http://192.168.23.2:8081/artifactory</url>
+    </repository>
+  </repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>gs-maven</groupId>
+			<artifactId>gs-maven</artifactId>
+			<version>0.1.0</version>
+		</dependency>
+	</dependencies>
 
     <build>
         <plugins>
