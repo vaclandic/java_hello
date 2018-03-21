@@ -5,13 +5,12 @@
     <groupId>org.springframework</groupId>
     <artifactId>gs-maven</artifactId>
     <packaging>jar</packaging>
-    <version>1.1.0</version>
-<!---
+    <version>2.1.0</version>
   <repositories>
     <repository>
       <id>artifactory</id>
       <name>test</name>
-      <url>http://192.168.23.2:8081/artifactory/test</url>
+      <url>http://192.168.23.2:8081/artifactory/artifactory</url>
     </repository>
   </repositories>
 
@@ -19,10 +18,9 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>gs-maven</artifactId>
-			<version>0.1.0</version>
+			<version>1.1.0</version>
 		</dependency>
 	</dependencies>
--->
     <build>
         <plugins>
             <plugin>
