@@ -9,7 +9,7 @@
   <repositories>
     <repository>
       <id>my-repo1</id>
-      <name>your custom repo</name>
+      <name>test</name>
       <url>http://192.168.23.2:8081/artifactory</url>
     </repository>
   </repositories>
