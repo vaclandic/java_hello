@@ -10,7 +10,7 @@
     <repository>
       <id>artifactory</id>
       <name>test</name>
-      <url>http://192.168.23.2:8081/artifactory</url>
+      <url>http://192.168.23.2:8081/artifactory/test</url>
     </repository>
   </repositories>
 
