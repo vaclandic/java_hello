@@ -16,7 +16,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>gs-maven</groupId>
+			<groupId>org.springframework</groupId>
 			<artifactId>gs-maven</artifactId>
 			<version>0.1.0</version>
 		</dependency>
