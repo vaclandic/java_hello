@@ -8,7 +8,7 @@
     <version>1.1.0</version>
   <repositories>
     <repository>
-      <id>my-repo1</id>
+      <id>artifactory</id>
       <name>test</name>
       <url>http://192.168.23.2:8081/artifactory</url>
     </repository>
