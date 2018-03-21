@@ -5,8 +5,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>gs-maven</artifactId>
     <packaging>jar</packaging>
-<<<<<<< HEAD
-    <version>0.1.0</version>
+    <version>1.1.0</version>
   <repositories>
     <repository>
       <id>my-repo1</id>
@@ -22,9 +21,6 @@
 			<version>0.1.0</version>
 		</dependency>
 	</dependencies>
-=======
-    <version>0.1.1</version>
->>>>>>> 9b728dca4a292c6d007075a2c8ca99d63c77164e
 
     <build>
         <plugins>
