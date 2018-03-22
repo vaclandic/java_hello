@@ -13,13 +13,13 @@ node {
     }
 
     stage ('Exec Maven') {
-        rtMaven.run pom: 'pom.xml', goals: 'complile package', buildInfo: buildInfo
+        rtMaven.run pom: 'pom.xml', goals: 'compile package', buildInfo: buildInfo
     }
 
     stage ('Publish build info') {
         server.publishBuildInfo buildInfo
     }
     stage ('Build Docker container') {
-        sh 'ls -l'
+        sh 'ls -l target'
     }
 }
