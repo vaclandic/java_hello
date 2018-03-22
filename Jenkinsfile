@@ -19,4 +19,7 @@ node {
     stage ('Publish build info') {
         server.publishBuildInfo buildInfo
     }
+    stage ('Build Docker container') {
+        sh 'ls -l'
+    }
 }
