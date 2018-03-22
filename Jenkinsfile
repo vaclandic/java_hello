@@ -8,7 +8,7 @@ node {
     }
 
     stage ('Artifactory configuration') {
-        rtMaven.tool = "Maven-3.3.9" 
+        rtMaven.tool = "maven" 
         buildInfo = Artifactory.newBuildInfo()
     }
 
