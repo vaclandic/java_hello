@@ -1,6 +1,5 @@
 language: rust
-rust:
-  - nightly-2019-04-16
+python:
 services: docker
 git:
   depth: 1
@@ -12,7 +11,7 @@ jobs:
     - stage: deploy
       name: Kubernetes
       script: "stage DEPLOY"
-      if: (branch = develop AND type = push) OR tag IS present
+      if: (branch = master AND type = push) OR tag IS present
 #stages:
 #  - name: check
 #  - name: deploy
