@@ -9,11 +9,7 @@ jobs:
       script: echo "stage CHECK"
     - stage: deploy
       name: Kubernetes
-      script: "stage DEPLOY"
+      script: echo "stage DEPLOY"
       if: (branch = master AND type = push) OR tag IS present
-#stages:
-#  - name: check
-#  - name: deploy
-#    if: (branch = master AND type = push) OR tag IS present
 notifications:
   email: false
