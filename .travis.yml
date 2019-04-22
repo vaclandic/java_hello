@@ -1,5 +1,4 @@
-language: rust
-python:
+language: python
 services: docker
 git:
   depth: 1
