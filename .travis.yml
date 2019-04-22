@@ -12,6 +12,7 @@ jobs:
     - stage: deploy
       name: Kubernetes
       script: "stage DEPLOY"
+      if: (branch = develop AND type = push) OR tag IS present
 #stages:
 #  - name: check
 #  - name: deploy
